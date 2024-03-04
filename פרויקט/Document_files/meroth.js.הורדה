@@ -1,0 +1,96 @@
+cart = [];
+let car = [];
+const onload = () => {
+  checkchoose(fun);
+}
+const fun = (result) => {
+  car = result;
+  console.log(car);
+}
+let dom = {
+  cars: document.getElementById('cars'),
+  searchForm: document.getElementById("search"),
+  collection: document.getElementById("collection"),
+  allCars: document.getElementById("allCars")
+}
+let searchInputs = {
+  collection: document.querySelector('option'),
+  ok: document.getElementById('ok')
+}
+
+searchInputs.ok.onclick = () => {
+  const currentName = Array.from(dom.collection.children)[dom.collection.value].innerHTML;
+  console.log(Array.from(dom.collection.children)[dom.collection.value].innerHTML);
+  car.forEach((car) => {
+    if (car.name == currentName && car.type == 'מרוץ') {
+      console.log(car);
+      dom.allCars.innerHTML += `
+    
+   <div id="design".style.backeground-image=url(.cars)>
+        <p>חברת ${car.name}</p>
+        <p>מחיר ${car.price}  </p>
+        <p>${car.seat} מקומות</p>
+        </div>
+        <div class=cars>
+        <img src = '../../imgs/רכבי מרוץ/${car.image}'/>  </div>
+      `
+    
+  
+      //   // const drowcar = (o) => {
+      
+      // const carDiv = document.createElement('div');
+      // carDiv.classList.add('cars');
+      //   const datadiv = document.createElement('div');
+      //   carDiv.appendChild(datadiv);
+      //   const name = document.createElement('p');
+      //   name.innerHTML = car.name.value;
+      //   const seat = document.createElement('p');
+      //   seat.innerHTML = car.seat + "מקומות";
+      //   const color = document.createElement('p');
+      //   color.innerHTML = "צבע:" + car.color;
+      //   const price = document.createElement('p');
+      //   price.innerHTML = "מחיר:" + car.price;
+      //   const img = document.createElement('img');
+      //   img.src = `../../imgs/${car.img}`;
+      //   carDiv.appendChild(img);
+      //   datadiv.appendChild(name);
+      //   datadiv.appendChild(seat);
+      //   datadiv.appendChild(color);
+      //   datadiv.appendChild(price);
+
+      //   const minustocart = document.createElement('button');
+      //   addtocart.type = "submit";
+      //   addtocart.innerHTML = "מחיקה";
+      //   const addtocart = document.createElement('button');
+      //   addtocart.type = "submit";
+      //   cardiv.appendChild(minustocart);
+      //   cardiv.minustocart.onclick = () => {
+      //     for (let index = 0; index < cart.length; index++) {
+      //       const element = cart[index];
+      //       if () { }
+      //     }
+
+
+      //   }
+      //   addtocart.innerHTML = "בטוח שזוהי בחירתך?!";
+      //   addtocart.onclick = () => {
+      //     cart.push(car.id);
+      //     localStorage.setItem("cart", JSON.stringify(cart));
+      //     addtocart.disable = true;
+      //     console.log(cart);
+      //   }
+      //   cardiv.appendChild(addtocart);
+      //   return carDiv;
+    }
+  })
+}
+
+  // checkchoose((drowcar(o)));
+
+//       const choose = (expensive) => {
+//         expensive.forEach(o => {
+//           if (o.name === opation.innerHTML || opation.innerHTML === "הכל")
+//             drowcar(o);
+//         });
+//       }
+

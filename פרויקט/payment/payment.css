@@ -1,0 +1,134 @@
+                    body {
+                        direction: rtl;
+                        background-color: rgb(10, 6, 6);
+                        color: red;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    }
+                    
+                    #top-nav-container {
+                        display: flex;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        width: 100%;
+                        height: 50px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        margin: -10px;
+                        font-size: 25px;
+                        padding: 35px;
+                        background-color: black;
+                        position: fixed;
+                        z-index: 3;
+                        top: 0px;
+                        right: 0px;
+                        left: 0px;
+                    }
+                    
+                    .item {
+                        font-size: 30px;
+                        color: red;
+                    }
+                    
+                    a:link {
+                        text-decoration: none;
+                    }
+                    
+                    i {
+                        color: red;
+                        font-size: 40px;
+                    }
+                    
+                    #wellcom {
+                        margin-right: 25%;
+                        margin-top: 5px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        color: red;
+                        font-weight: 10px;
+                    }
+                    
+                    h3 {
+                        font-size: 30px;
+                        color: red;
+                        text-align: center;
+                        margin-top: 20px;
+                        margin-left: 500px;
+                    }
+                    
+                    h1 {
+                        font-size: 30px;
+                        margin-top: 40px;
+                        margin-left: 35%;
+                    }
+                    
+                    h2 {
+                        font-size: 30px;
+                        margin-top: 40px;
+                    }
+                    
+                    .credit-card {
+                        width: 600px;
+                        height: 350px;
+                        background-color: red;
+                        margin-right: 25%;
+                        margin-top: 150px;
+                        color: rgba(196, 183, 183, 0.185);
+                       
+                        border-radius: 10px;
+                    }
+                    
+                    .credit-card label {
+                        display: block;
+                        color: black;
+                        margin-bottom: 10px;
+                    }
+                    
+                    .credit-card input[type="text"] {
+                        width: 100%;
+                        color: black;
+                    }
+                    
+                    .credit-card .integrity-check {
+                        display: none;
+                        color: red;
+                    }
+                    
+                    button {
+                        padding: 5px;
+                        color: black;
+                        margin-bottom: -30px;
+                        margin-right: 45%;
+                        text-align: center;
+                    }
+                    
+                    h4 {
+                        color: black;
+                    }
+                    
+                    #pay {
+                        display: block;
+                        justify-content: center;
+                    }
+                    
+                    .designremove {
+                        border: 4px red solid;
+                        width: 368px;
+                        margin-right: 5%;
+                    }
+                    
+                    #design {
+                        color: red;
+                        font-size: 30px;
+                        color: red;
+                        margin-right: 150px;
+                        margin-top: 10px;
+                    }
+                    
+                    #allCard {
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-content: center;
+                        width: 50px;
+                      
+                        justify-content: space-evenly;
+                    }

@@ -1,0 +1,199 @@
+body {
+  direction: rtl;
+    background-color: black;
+    color: red; 
+}
+video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    transition: 1s opacity;
+    z-index: -1;
+    height:fit-content !important;
+    width:100%;
+}
+
+h1 {
+    font-size: 85px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    margin-right: 40%;
+    margin-top: 20px;
+}
+
+#start {
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    margin-right: 40%;
+}
+
+#finish {
+    margin-top: -20px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    margin-right: 40%;
+}
+
+#name {
+    margin-right: 40px;
+}
+
+#phone {
+    margin-right: 25px;
+}
+
+#email {
+    margin-right: 30px;
+}
+
+#newName {
+    margin-right: 35px;
+}
+
+#newPhone {
+    margin-right: 20px;
+}
+
+button {
+    color: red;
+    height: 20px;
+    margin-bottom: -30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#loginButton>a {
+    color: red;
+}
+
+#passsword {
+    border-width: 0 0 2px 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+#car-image {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: transparent;
+    animation: drive 10s linear infinite;
+}
+
+@keyframes drive {
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+#car-images {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: transparent;
+    animation: drive1 10s linear infinite;
+}
+
+@keyframes drive1 {
+    0% {
+        right: -200px;
+    }
+    100% {
+        right: 100%;
+    }
+}
+
+i {
+    color: red;
+    width: 30px;
+    margin-left: 30px;
+}
+
+#icon {
+    color: red;
+    height: 30px;
+    margin-top: 150px;
+    margin-right: 45%;
+    font-size: 75px;
+    width: 100px;
+}
+
+#icon {
+    animation-delay: 0.5ms;
+    animation-fill-mode: both;
+    animation-name: icon;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5m;
+}
+
+@keyframes icon {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#car-animation {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 1s ease-in-out;
+}
+
+.car-animation-active {
+    opacity: 1;
+}
+
+.car-animation-inactive {
+    opacity: 0;
+}
+
+#password {
+    margin-right: 10px;
+}
+
+#email {
+    margin-right: 32px;
+}
+
+input {
+    height: 30px;
+}
+
+#picture {
+    width: 450px;
+    margin-top: 100px;
+    margin-right: 68%;
+    height: 0px;
+}
+
+button {
+    color: red;
+    height: 35px;
+}
+
+#submit {
+    margin-right: 65%;
+}

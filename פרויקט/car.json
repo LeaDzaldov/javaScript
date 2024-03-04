@@ -1,0 +1,294 @@
+[
+
+    {
+        "id": 1,
+        "name": "לקסוס",
+        "price": 500000,
+        "seat": 5,
+        "color": "כחול",
+        "type": "מרוץ",
+        "image": "lexus.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "אאודי",
+        "price": 680000,
+        "seat": 7,
+        "color": "תכלת",
+        "type": "מרוץ",
+        "image": "audi-s5-new.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "בנטלי",
+        "price": 690300,
+        "seat": 5,
+        "color": "כחול",
+        "type": "מרוץ",
+        "image": "bentley-continental-gt-new.jpg"
+    },
+
+    {
+        "id": 4,
+        "name": "ב.מ.וו",
+        "price": 740000,
+        "seat": 5,
+        "color": "צהוב",
+        "type": "מרוץ",
+        "image": "bmw-m4-new.jpg"
+    },
+
+
+    {
+        "id": 5,
+        "name": "שברולט",
+        "price": 750000,
+        "seat": 5,
+        "color": "אדום",
+        "type": "מרוץ",
+        "image": "chevrolet-corvette-new.jpg"
+    },
+
+
+    {
+        "id": 6,
+        "name": "לקסוס",
+        "price": 690580,
+        "seat": 5,
+        "color": "אדום",
+        "type": "מרוץ",
+        "image": "lexus-lc-new.jpg"
+    },
+
+    {
+        "id": 7,
+        "name": "מרצדס",
+        "price": 850000,
+        "seat": 5,
+        "color": "לבן",
+        "type": "מרוץ",
+        "image": "mercedes-sl-new.jpg"
+    },
+
+    {
+        "id": 8,
+        "name": "פורשה",
+        "price": 560300,
+        "seat": 5,
+        "color": "לבן",
+        "type": "מרוץ",
+        "image": "porsche-911-new.jpg"
+    },
+
+    {
+        "id": 9,
+        "name": "מרצדס",
+        "price": 600000,
+        "seat": 7,
+        "color": "אפור",
+        "type": "מנהלים",
+        "image": "caaar.jpg"
+
+    }, {
+
+        "id": 10,
+        "name": "אאודי",
+        "price": 650000,
+        "seat": 5,
+        "color": "שחור",
+        "type": "מנהלים",
+
+        "image": "audinew.jpg"
+
+    },
+    {
+
+        "id": 11,
+        "name": "אאודי",
+        "price": 650000,
+        "seat": 5,
+        "color": "ירוק",
+        "type": "מנהלים",
+        "image": "audigreen.jpg"
+
+    },
+    {
+        "id": 12,
+        "name": "אאודי",
+        "price": 450990,
+        "seat": 7,
+        "color": "אפור",
+        "type": "מנהלים",
+        "image": "audinew.jpg"
+
+    },
+    {
+        "id": 13,
+        "name": "מרצדס",
+        "price": 489000,
+        "seat": 5,
+        "color": "לבן",
+        "type": "מנהלים",
+        "image": "alfa-romeo-giulia-new.jpg"
+
+    },
+
+    {
+
+        "id": 14,
+        "name": "אאודי",
+        "price": 750090,
+        "seat": 5,
+        "color": "אפור",
+        "type": "מנהלים",
+        "image": "audi-a6-new.jpg"
+
+    },
+
+    {
+
+        "id": 15,
+        "name": "ב.מ.וו",
+        "price": 860900,
+        "seat": 7,
+        "color": "אפור",
+        "type": "מנהלים",
+        "image": "bmw-3-series-new.jpg"
+
+    },
+
+    {
+
+        "id": 16,
+        "name": "ב.מ.וו",
+        "price": 750985,
+        "seat": 5,
+        "color": "לבן",
+        "type": "מנהלים",
+        "image": "bmw-4-series-gran-coupe-new.jpg"
+
+    },
+
+    {
+
+        "id":17,
+        "name": "ב.מ.וו",
+        "price": 600990,
+        "seat": 5,
+        "color": "כחול",
+        "type": "מנהלים",
+        "image": "bmw-5-series-new.jpg"
+
+    },
+
+    {
+
+        "id": 18,
+        "name": "מרצדס",
+        "price": 520000,
+        "seat": 5,
+        "color": "אפור",
+        "type": "מנהלים",
+        "image": "mercedes-e-class-new.jpg"
+
+    },
+    {
+        "id": 19,
+        "name": "אאודי",
+        "price": 760100,
+        "seat": 5,
+        "color": "אפור",
+        "type": "יוקרה",
+        "image": "audi-wow.jpg"
+    },
+    {
+        "id": 20,
+        "name": "אאודי",
+        "price": 695300,
+        "seat": 5,
+        "color": "שחור",
+        "type": "יוקרה",
+        "image": "audi-audi.jpg"
+
+    },
+    {
+        "id":21,
+        "name": "אאודי",
+        "price": 560000,
+        "seat": 5,
+        "color": "שחור",
+        "type": "יוקרה",
+        "image": "audiii.jpg"
+    }, { 
+
+        "id": 22,
+        "name": "מרצדס",
+        "price": 600000,
+        "seat": 7,
+        "color": "שחור",
+        "type": "יוקרה",
+        "image": "carrr.jpg"
+    },
+    {
+
+        "id": 23,
+        "name": "אאודי",
+        "price": 560000,
+        "seat": 7,
+        "color": "שחור",
+        "type": "יוקרה",
+        "image": "audi-a8-new.jpg"
+    },
+    {
+        "id": 24,
+        "name": "לקסוס",
+        "price": 589000,
+        "seat": 5,
+        "color": "אפור",
+        "type": "יוקרה",
+        "image": "lexus-ls500-new.jpg"
+    }, {
+        "id": 25,
+        "name": "מרצדס",
+        "price": 900000,
+        "seat": 7,
+        "color": "כחול",
+        "type": "יוקרה",
+        "image": "maserati-quattroporte-new.jpg"
+
+    },
+    {
+
+        "id": 26,
+        "name": "מרצדס",
+        "price": 700600,
+        "seat": 5,
+        "color": "לבן",
+        "type": "יוקרה",
+        "image": "mercedes-s-class-new.jpg"
+    }, {
+
+        "id": 27,
+        "name": "פורשה",
+        "price": 608000,
+        "seat": 7,
+        "color": "אדום",
+        "type": "יוקרה",
+        "image": "porsche-panamera-new.jpg"
+
+
+    },
+    {
+
+        "id": 28,
+        "name": "פולקסווגן",
+        "price": 750000,
+        "seat": 7,
+        "color": "שחור",
+        "type": "יוקרה",
+        "image": "מכונית.jpg"
+
+    }
+]

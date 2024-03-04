@@ -1,0 +1,280 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    direction: rtl;
+    color: red;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+#top-nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: -10px;
+    font-size: 25px;
+    padding: 35px;
+    background-color: black;
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.item {
+    font-size: 30px;
+    color: red;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#board-container {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 41%;
+    margin-top: 60px;
+}
+
+.square {
+    width: 90px;
+    height: 50px;
+    border: 3px red solid;
+    font-size: 20px;
+    color: red;
+}
+
+#sq0:hover {
+    transition: 500ms;
+    background-image: url(../../porsche-panamera-new.jpg);
+    background-size: 90px;
+}
+
+#sq1:hover {
+    transition: 500ms;
+    background-image: url(../../mercedes-e-class-new.jpg);
+    background-size: 90px;
+}
+
+#sq2:hover {
+    transition: 500ms;
+    background-image: url(../../car2.jpg);
+    background-size: 90px;
+}
+
+#sq3:hover {
+    transition: 500ms;
+    background-image: url(../../bmw-m4-new.jpg);
+    background-size: 90px;
+}
+
+#sq4:hover {
+    transition: 500ms;
+    background-image: url(../../bentley-continental-gt-new.jpg);
+    background-size: 90px;
+}
+
+#sq5:hover {
+    transition: 500ms;
+    background-image: url(../../porsche-911-new.jpg);
+    background-size: 90px;
+}
+
+#advice {
+    font-size: 17px;
+    margin-right: 75%;
+    margin-top: 70px;
+}
+
+#link {
+    position: absolute;
+    z-index: 2;
+    background-color: red;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+#car-image {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    background-color: transparent;
+    animation: drive 10s linear infinite;
+}
+
+@keyframes drive {
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+#car-images {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    background-color: transparent;
+    animation: drive1 10s linear infinite;
+}
+
+@keyframes drive1 {
+    0% {
+        right: -200px;
+    }
+    100% {
+        right: 100%;
+    }
+}
+
+#carConfigurator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#carModelContainer {
+    width: 400px;
+    height: 200px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#carModel {
+    font-size: 24px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+#wellcome{
+    margin-top: 100px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+}
+#optionsContainer {
+    margin-top: 30px;
+}
+
+.carOption {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+
+}
+
+#car {
+    position: relative;
+    width: 200px;
+    height: 100px;
+top:50px;
+    margin-right: 45%;
+}
+
+.roof {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px 10px 0 0;
+}
+
+.body {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+}
+
+.front-window {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.back-window {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.front-wheel,
+.back-wheel {
+    position: absolute;
+    bottom: -25px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.front-wheel {
+    left: 10px;
+}
+
+.back-wheel {
+    right: 10px;
+}
+
+#carForm {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+
+#cofigurator-container {
+    display: flex;
+}
+
+
+#options {
+    flex: 1;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+label{
+    direction:rtl;
+}

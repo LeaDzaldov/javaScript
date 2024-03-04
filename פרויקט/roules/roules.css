@@ -1,0 +1,75 @@
+body {
+    direction: rtl;
+    background-color: black;
+    color: red;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#top-nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: -10px;
+    font-size: 25px;
+    padding: 35px;
+    background-color: black;
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.item {
+    font-size: 30px;
+    color: red;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#top {
+    animation-delay: 13ms;
+    animation-fill-mode: both;
+    animation-name: top1;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+    
+}
+
+@keyframes top1 {
+    0% {
+        background-image: url(../car2.jpg);
+    }
+    20% {
+        background-image: url(../bmw-5-series-new\ copy\ 2.jpg);
+    }
+    40% {
+        background-image: url(../car4.jpg);
+    }
+    60% {
+        background-image: url(../audi-s5-new.jpg);
+    }
+   80% {
+        background-image: url(../car1.jpg);
+    }
+    
+    100% {
+        background-image: url(../bentley-continental-gt-new.jpg);
+    }
+}
